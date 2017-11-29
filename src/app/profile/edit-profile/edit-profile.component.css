@@ -1,0 +1,46 @@
+form{
+    border:1px solid lightgray;
+}
+img,.form-control{
+    margin: 3%;
+}
+.pull-right{
+    margin-top:2%; 
+}
+h3{
+    text-align:right;
+}
+.name{
+    text-align: right;
+    
+}
+.btns{
+    margin-bottom: 3%;
+}
+.form-control::-webkit-input-placeholder { color:black; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color:black; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: black; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: black; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: black; }
+label.custom-file{
+    text-align: right;
+    margin-right: 2%; 
+}
+#file2{
+    margin-right: 10%;
+}
+#img-choose{
+    margin-right: 0%;
+}
+#basic-addon2{
+border-style: none;
+}
+browse{
+    margin-bottom: 3%;
+}
+.btn-default{
+    height: 34px;
+}
+.ng-invalid{
+    border: 1px solid red;
+}

@@ -1,0 +1,22 @@
+<p>
+  achievement works!
+</p>
+<table class="table col-md-6 col-xs-11 col-sm-4 col-lg-8 pull-right">
+    <thead>
+      <tr>
+       <th scope="col">ניקוד</th>
+        <th scope="col">שם</th>
+        <th scope="col">#</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr scope="row" *ngFor="let achieve of achievements">
+     <td>{{achieve.totalScore}}</td>
+    <td>{{achieve.userName}}</td>
+    <th scope="row">{{achieve.userid}}</th>
+    </tr>
+  </tbody>
+  <tfoot>
+    לוח ההישגים נקבע על סמך כלל הקורסים אם ברצונך לבדוק הישגים של קורס מסויים לחץ על הסמל שלו בתחילת הטבלה
+  </tfoot>
+</table>

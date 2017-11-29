@@ -1,0 +1,15 @@
+
+    <ul class="columnList col-md-10 col-sm-10 col-xs-12 col-sm-offset-2 pull-right">
+      <li class="course" *ngFor="let course of courses">
+    <a routerLink="/courseDetails" class="list-group-item clearfix">
+      <div class>
+        <h4 class="list-group-item-heading">{{course.courseName}}</h4>
+      <p class="list-group-item-text">{{course.description}}</p>
+      </div>
+      <span class="pull-left">
+        <img src="..\..\assets\images\1.png" class="img-responsive" style="max-height:50px;">
+      </span>
+    </a>
+</li>
+</ul>
+

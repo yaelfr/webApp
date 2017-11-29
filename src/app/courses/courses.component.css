@@ -1,0 +1,13 @@
+.columnList {
+    column-count: 2;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .course{
+    margin-top: 0px;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    margin-left: 0%;
+  }
+ 

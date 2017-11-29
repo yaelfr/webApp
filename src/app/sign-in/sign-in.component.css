@@ -1,0 +1,9 @@
+form{
+border: 1px solid lightgray;
+}
+.btn-primary{
+    margin-bottom:2%;
+}
+@media(max-width:767px){
+
+}
